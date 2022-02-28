@@ -1,0 +1,627 @@
+
+/* ======Extra Extra Large Start===== */
+@media (min-width: 1400px){
+    .banner-text{
+        margin-top: 30px;
+    }
+    .banner-text h1 {
+        font-size: 150px;
+        line-height: 127px;
+        margin-bottom: 15px;
+    }
+}
+/* ======Extra Extra Large End===== */
+/* ======Extra Large Start===== */
+@media (min-width: 1200px) and (max-width: 1399px){
+    .banner-text{
+        margin-top: 30px;
+    }
+    .banner-text h2 {
+        font-size: 72px;
+        margin-bottom: 11px;
+    }
+    .banner-text h1 {
+        font-size: 130px;
+        line-height: 127px;
+        margin-bottom: 15px;
+    }
+    .banner-text h1::after {
+        bottom: -24px;
+    }
+    .banner-button{
+        padding-top: 54px;
+    }
+    .banner-button a {
+        font-size: 14px;
+        padding: 7px 25px;
+    }
+}
+/* ======Extra Large End===== */
+/* ======Large Start===== */
+@media (min-width: 992px) and (max-width: 1199px){
+    .navbar {
+        position: absolute;
+        padding: 0 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 4px 15px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+    }
+        /* -----Navbar Start -----*/
+        /* -----Banner Start -----*/
+        .banner-text h2 {
+            font-size: 72px;
+            margin-bottom: 11px;
+        }
+        .banner-text h1 {
+            font-size: 100px;
+            line-height: 92px;
+            margin-bottom: 15px;
+        }
+        .banner-text h1::after {
+            bottom: -24px;
+        }
+        .banner-button{
+            padding-top: 54px;
+        }
+        .banner-button a {
+            font-size: 14px;
+            padding: 7px 25px;
+        }
+
+    /* -----Banner End -----*/
+    /* -----About Start -----*/
+    #about {
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+    .overlay-content h5 {
+        font-size: 14px;
+    }
+    .common-header-text h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .common-header-text h3 { 
+        font-size: 21px;
+        padding-bottom: 25px;
+    }
+    .common-header-text p {
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .about-images-wrapper {
+        margin-top: 0px;
+    }
+    /* -----About End -----*/
+    /* -----Counter-up Start -----*/
+    #counter-up {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .counter-up-item span {
+        font-size: 45px;
+    }
+    .counter-up-item p {
+        font-size: 13px;
+    }
+    /* -----Counter-up End -----*/
+    /* -----Service Start -----*/
+    #service {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .gap {
+        margin-top: 50px;
+    }
+    .service-item{
+        margin-bottom: 30px;
+    }
+    .service-text {
+        text-align: start;
+        margin-top: 0;
+    }
+    .item-gap {
+        margin-top: 0px;
+    }
+    /* -----Service End -----*/
+    /* -----Comment Start -----*/
+    .comment-box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .comment-text {
+        text-align: start;
+    }
+    .comment-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .comment-text span {
+        font-size: 20px;
+        margin-left: 72px;
+    }
+    .comment-left-icon {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+    }
+    .comment-right-icon {
+        position: absolute;
+        top: 50%;
+        right: 7%;
+        transform: translateY(-50%);
+    }
+    /* -----Comment end -----*/
+    /* -----Team Start -----*/
+    .team-iem-text h3 {
+        margin-top: 30px;
+    }
+    /* -----Team end -----*/
+    /* -----Work start -----*/
+    .work-overly-content h3 {
+        font-size: 11px;
+    }
+    .work-overly-content p {
+        font-size: 14px;
+    }
+    /* -----Work end -----*/
+    /* -----Footer Start -----*/
+    .footer-content p {
+        padding-bottom: 15px;
+    }  
+    .footer-left-form {
+        position: relative;
+        margin-bottom: 58px;
+    } 
+    .footer-left-form input {
+        width: 100%;
+    }
+    .footer-left-form button {
+        padding: 10px 29px;
+        top: 65px;
+        left: 0;
+        font-size: 13px;
+    }
+    .footer-common-header h2 {
+        padding-bottom: 10px;
+        padding-top: 17px;
+    }
+}
+/* ======Large End===== */
+/* ======Medium Start===== */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar {
+        position: static;
+        padding: 0 0;
+        background: linear-gradient(#EEC988,#E88883);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 4px 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: black;
+    }
+        /* -----Navbar Start -----*/
+        /* -----Banner Start -----*/
+        .banner-text h2 {
+            font-size: 50px;
+            margin-bottom: 11px;
+        }
+        .banner-text h1 {
+            font-size: 45px;
+            line-height: 70px;
+            margin-bottom: 15px;
+        }
+        .banner-button a {
+            font-size: 14px;
+            padding: 7px 25px;
+        }
+    .banner-text h1::after {
+        display: none;
+    }
+    /* -----Banner End -----*/
+    /* -----About Start -----*/
+    #about {
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+    .overlay-content h5 {
+        font-size: 14px;
+    }
+    .common-header-text h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .common-header-text h3 { 
+        font-size: 21px;
+        padding-bottom: 25px;
+    }
+    .common-header-text p {
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .about-images-wrapper {
+        margin-top: 0px;
+    }
+    /* -----About End -----*/
+    /* -----Counter-up Start -----*/
+    #counter-up {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .counter-up-item span {
+        font-size: 45px;
+    }
+    .counter-up-item p {
+        font-size: 13px;
+    }
+    /* -----Counter-up End -----*/
+    /* -----Service Start -----*/
+    #service {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .gap {
+        margin-top: 50px;
+    }
+    .service-item{
+        margin-bottom: 30px;
+    }
+    .service-text {
+        text-align: start;
+        margin-top: 0;
+    }
+    .item-gap {
+        margin-top: 0px;
+    }
+    /* -----Service End -----*/
+    /* -----Comment Start -----*/
+    .comment-box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .comment-text {
+        text-align: start;
+    }
+    .comment-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .comment-text span {
+        font-size: 20px;
+        margin-left: 72px;
+    }
+    /* -----Comment end -----*/
+    /* -----Team Start -----*/
+    .team-iem-text h3 {
+        margin-top: 30px;
+    }
+    /* -----Team end -----*/
+    /* -----Work start -----*/
+    .work-overly-content h3 {
+        font-size: 11px;
+    }
+    .work-overly-content p {
+        font-size: 14px;
+    }
+    /* -----Work end -----*/
+    /* -----Footer Start -----*/
+    .footer-content p {
+        padding-bottom: 15px;
+    }  
+    .footer-left-form {
+        position: relative;
+        margin-bottom: 58px;
+    } 
+    .footer-left-form input {
+        width: 100%;
+    }
+    .footer-left-form button {
+        padding: 10px 29px;
+        top: 65px;
+        left: 0;
+        font-size: 13px;
+    }
+    .footer-common-header h2 {
+        padding-bottom: 10px;
+        padding-top: 17px;
+    }
+}
+/* ======Medium End===== */
+/* ======Small Start===== */
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar {
+        position: static;
+        padding: 0 0;
+        background: linear-gradient(#EEC988,#E88883);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 4px 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: black;
+    }
+        /* -----Navbar Start -----*/
+        /* -----Banner Start -----*/
+    .banner-text h2 {
+            font-size: 40px;
+            margin-bottom: 11px;
+        }
+    .banner-text h1 {
+            font-size: 35px;
+            line-height: 50px;
+            margin-bottom: 15px;
+        }
+    .banner-button a {
+            font-size: 14px;
+            padding: 5px 17px;
+        }
+    .banner-text h1::after {
+        display: none;
+    }
+    /* -----Banner End -----*/
+    /* -----About Start -----*/
+    #about {
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+    .overlay-content h5 {
+        font-size: 14px;
+    }
+    .common-header-text h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .common-header-text h3 { 
+        font-size: 21px;
+        padding-bottom: 25px;
+    }
+    .common-header-text p {
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .about-images-wrapper {
+        margin-top: 0px;
+    }
+    /* -----About End -----*/
+    /* -----Counter-up Start -----*/
+    #counter-up {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .counter-up-item span {
+        font-size: 45px;
+    }
+    .counter-up-item p {
+        font-size: 13px;
+    }
+    /* -----Counter-up End -----*/
+    /* -----Service Start -----*/
+    #service {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .gap {
+        margin-top: 50px;
+    }
+    .service-item{
+        margin-bottom: 30px;
+    }
+    .service-text{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .item-gap {
+        margin-top: 0px;
+    }
+    /* -----Service End -----*/
+    /* -----Comment Start -----*/
+    .comment-box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .comment-text {
+        text-align: center;
+    }
+    .comment-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .comment-text span {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .comment-text span::after {
+        display: none;
+    }
+    /* -----Comment end -----*/
+    /* -----Team Start -----*/
+    .team-iem-text h3 {
+        margin-top: 30px;
+    }
+    /* -----Team end -----*/
+    /* -----Work start -----*/
+    .work-overly-content h3 {
+        font-size: 11px;
+    }
+    .work-overly-content p {
+        font-size: 14px;
+    }
+    /* -----Work end -----*/
+    /* -----Footer Start -----*/
+    .footer-content p {
+        padding-bottom: 15px;
+    }    
+    .footer-left-form button {
+        padding: 10px 29px;
+        top: 65px;
+        left: 0;
+        font-size: 13px;
+    }
+    .footer-common-header h2 {
+        padding-bottom: 10px;
+        padding-top: 80px;
+    }
+}
+/* ======Small End===== */
+/* ======Extra Small Start===== */
+@media (max-width: 575.99px){
+    /* -----Navbar Start -----*/
+    .navbar {
+        position: static;
+        padding: 0 0;
+        background: linear-gradient(#EEC988,#E88883);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 4px 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: black;
+    }
+        /* -----Navbar Start -----*/
+        /* -----Banner Start -----*/
+    .banner-text h2 {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    .banner-text h1 {
+        font-size: 23px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .banner-button a {
+        font-size: 13px;
+        padding: 3px 13px;
+    }
+    .banner-text h1::after {
+        display: none;
+    }
+    /* -----Banner End -----*/
+    /* -----About Start -----*/
+    #about {
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+    .common-header-text h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .common-header-text h3 { 
+        font-size: 21px;
+        padding-bottom: 25px;
+    }
+    .common-header-text p {
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+    .about-images-wrapper {
+        margin-top: 0px;
+    }
+    /* -----About End -----*/
+    /* -----Counter-up Start -----*/
+    #counter-up {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .counter-up-item span {
+        font-size: 45px;
+    }
+    .counter-up-item p {
+        font-size: 13px;
+    }
+    /* -----Counter-up End -----*/
+    /* -----Service Start -----*/
+    #service {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .gap {
+        margin-top: 50px;
+    }
+    .service-item{
+        margin-bottom: 30px;
+    }
+    .service-text{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .item-gap {
+        margin-top: 0px;
+    }
+    /* -----Service End -----*/
+    /* -----Comment Start -----*/
+    .comment-box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .comment-text {
+        text-align: center;
+    }
+    .comment-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .comment-text span {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .comment-text span::after {
+        display: none;
+    }
+    /* -----Comment end -----*/
+    /* -----Team Start -----*/
+    .team-iem-text h3 {
+        margin-top: 30px;
+    }
+    /* -----Team end -----*/
+    /* -----Footer Start -----*/
+    .footer-content p {
+        padding-bottom: 15px;
+    }    
+    .footer-left-form button {
+        padding: 10px 29px;
+        top: 65px;
+        left: 0;
+        font-size: 13px;
+    }
+    .footer-common-header h2 {
+        padding-bottom: 10px;
+        padding-top: 80px;
+    }
+    /* -----Footer end -----*/
+    @media (min-width: 470px) and (max-width: 575.99px){
+        .service-text p {
+            padding: 0 90px;
+        }
+    }
+    /* -----About Start -----*/
+}
+/* ======Extra Small End===== */
