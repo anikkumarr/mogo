@@ -656,7 +656,7 @@ html,body{
 .footer-bottom-text p span{
     color: #f38181;
 }
-.top-btn{
+/* .top-btn{
     position: fixed;
     bottom: 30px;
     right: 15px;
@@ -682,7 +682,7 @@ html,body{
     line-height: 40px;
     font-size: 25px;
     color: #333333;
-}
+} */
 /* ============Footer css part End ============== */
 
 
