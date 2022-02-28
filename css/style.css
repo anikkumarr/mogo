@@ -17,7 +17,7 @@ html,body{
 }
 
 /* Hamburg Start */
-.ham {
+/* .ham {
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 	transition: transform 400ms;
@@ -63,7 +63,7 @@ html,body{
   }
   .ham8.active .bottom {
     stroke-dashoffset: -64px;
-  }
+  } */
 /* Hamburg end */
 /* ============navbar css part ============== */
 .navbar-brand{
